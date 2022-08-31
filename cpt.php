@@ -12,7 +12,7 @@ class create_cpt(){
       if(is_array($arg)){
         $this->args = $arg;
       }else{
-        $this->args['label']  => __( 'Books');
+        $this->args['label']  => __( $arg);
       }
    }
    
